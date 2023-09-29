@@ -1,0 +1,30 @@
+/* Gallery.css */
+
+.gallery-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+/* Style images within the gallery */
+.gallery-item img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style videos within the gallery */
+.gallery-item video {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
